@@ -1,20 +1,26 @@
 import React, { Component } from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-
-
+import Navbar  from "./components/Navbar"
+import ProductList from "./components/ProductList"
+import Product from './components/Product';
+import Cart from "./components/Cart"
+import Details from "./components/Details"
+import Default from "./components/Default"
 class App extends Component {
   render (){
   
   return (
-    <div className="container">
-    <div className="row">
-    <div className="col-6">Colum number 6</div>  
-    <div className="col-6"><span><FontAwesomeIcon icon={faCoffee} /></span>mambo number 5</div>
-    </div>  
-    </div>
+    <>
+      <Navbar/>
+      <ProductList/>
+      <Product/>
+      <Cart/>
+      <Default/>
+      <Details/>
+
+    </>
+
   );
   }
 }

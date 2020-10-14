@@ -7,5 +7,22 @@
 }
 
 body{
-  font-family: "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: "Permanent Marker", cursive !important;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-green{
+  color: var(--mainGreen);
+
+}
+
+.text-bright{
+  color: var(--lightgreen);
 }
