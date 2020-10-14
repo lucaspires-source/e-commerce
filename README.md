@@ -1,3 +1,9 @@
+E-commerce application made with React
+
+
+
+Project based on the tutorial by John Smilga  avaliable on freeCodeCamp
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
