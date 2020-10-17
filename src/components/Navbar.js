@@ -4,10 +4,11 @@ import logo from "../logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons'
 import styled from "styled-components"
+import {ButtonContainer} from "./Button"
 export default class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-sm bg-primary navbar-dark px-sm-5">
+            <NavWrapper className="navbar navbar-expand-sm  navbar-dark px-sm-5">
                 <Link to="/">
                     <img src={logo} alt="Logo of the store" className="navbar-brand  logo"></img>
                 </Link>
@@ -26,26 +27,18 @@ export default class Navbar extends Component {
                         my cart
                     </ButtonContainer>
                 </Link>
-            </nav>
+            </NavWrapper>
         )
     }
 }
-const ButtonContainer = styled.button`
-    text-transform:capitalize;
-    font-size:1.4rem;
-    background:transparent;
-    border:0.05rem solid var(--lightgreen);
-    color:var(--lightgreen);
-    border-radius:0.5rem;
-    padding:0.2rem 0.5rem;
-    cursor:pointer;
-    margin:0.2rem 0.5rem 0.2rem 0;
-    transition:all 0.5s ease-in-out;
-    &:hover{
-        background:var(--lightgreen);
-        color:var(--mainGreen) ;
+
+const NavWrapper = styled.nav `
+    background:var(--mainGreen);
+    .nav-link{
+        color:var(--mainWhite) !important;
+        font-size:1.3rem;
+        text-transform:capitalize;
     }
-    &:focus{
-        outline:none
-    }
-`;
+
+`
+;
