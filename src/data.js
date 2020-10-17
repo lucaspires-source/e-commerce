@@ -30,7 +30,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: " Netherlands - Home Shirt",
+    title: "Netherlands - Home Shirt",
     img: "img/product-3.png",
     price: 80,
     company: "Nike",
