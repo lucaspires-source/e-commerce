@@ -23,12 +23,12 @@ class ProductProvider extends Component {
             return {products:tempProducts}
         })
     }
-    handleDetail = () =>{
+    handleDetail = (id) =>{
         console.log("hello from detail")
     }
 
-    addToCart = () =>{
-        console.log("hello from the cart")
+    addToCart = (id) =>{
+        console.log(`hello from the cart.id is ${id} `)
     }
 
     render() {
