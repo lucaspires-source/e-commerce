@@ -10,7 +10,7 @@ export default class ProductList extends Component {
             <>
                 <ProductWrapper className="py-5">
                     <Title name="our" title="products"/>
-                    <div className="container  d-flex justify-content-center flex-wrap">
+                    <div className="container  d-flex justify-content-around align-items-center flex-wrap ">
                         <div className="row"/>
                         <ProductConsumer>
                             {value=>{
