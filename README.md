@@ -8,11 +8,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## `Project images`
 
 
-![Homepage](https://github.com/[lucaspires-source]/[e-commerce]/blob/[main]/E-commerce001.jpg?raw=true)
+![Homepage](https://github.com/lucaspires-source/e-commerce/blob/main/Project%20images/E-commerce001.jpg?raw=true)
 
-![details](https://github.com/[lucaspires-source]/[e-commerce]/blob/[main]/E-commerce002.jpg?raw=true)
+![details](https://github.com/lucaspires-source/e-commerce/blob/main/Project%20images/E-commerce002.jpg?raw=true)
 
-![cart](https://github.com/[lucaspires-source]/[e-commerce]/blob/[main]/E-commerce003.jpg?raw=true)
+![cart](https://github.com/lucaspires-source/e-commerce/blob/main/Project%20images/E-commerce003.jpg?raw=true)
 
 
 
