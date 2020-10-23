@@ -2,9 +2,17 @@
 
 
 
-Project based on the tutorial by John Smilga  avaliable on freeCodeCamp
+E-commerce projetct based on the tutorial by John Smilga  avaliable on freeCodeCamp
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## `Project images`
+
+![Homepage](../Project images/E-commerce001.jpg)
+![details](../Project images/E-commerce002.jpg)
+![cart](../Project images/E-commerce003.jpg)
+
+
+
 
 ## Available Scripts
 
