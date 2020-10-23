@@ -7,9 +7,13 @@ E-commerce projetct based on the tutorial by John Smilga  avaliable on freeCodeC
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## `Project images`
 
-![Homepage](../main/Project images/E-commerce001.jpg)
-![details](../main/Project images/E-commerce002.jpg)
-![cart](../main/Project images/E-commerce003.jpg)
+
+![Homepage](https://github.com/[lucaspires-source]/[e-commerce]/blob/[main]/E-commerce001.jpg?raw=true)
+
+![details](https://github.com/[lucaspires-source]/[e-commerce]/blob/[main]/E-commerce002.jpg?raw=true)
+
+![cart](https://github.com/[lucaspires-source]/[e-commerce]/blob/[main]/E-commerce003.jpg?raw=true)
+
 
 
 
